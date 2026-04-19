@@ -11,10 +11,16 @@ using socioeconomic factors (Free & Reduced Lunch %) over 7 years
 ## Files
 - `preprocessing_&_merging.ipynb` — Data loading, cleaning, merging
 - `EDA.ipynb` — Exploratory data analysis
-- `Capstone_very_Fianl.ipynb` — Feature engineering, ML models, results
+- `Capstone_very_Fianl.ipynb` — Original: Feature engineering, ML models, results (Steps 1-26)
+- `Capstone_very_Fianl_ipynb_Feedback.ipynb` — Updated based on professor feedback: Added CV RMSE vs Test RMSE overfitting detection and CV R² for model selection (Steps 27-30)
 
-## Key Result
-XGBoost — Test R² = 0.8143 | Test RMSE = 0.0389
+## Key Results
+XGBoost Default — Best Model
+- Test R² = 0.8143
+- Test RMSE = 0.0389
+- CV R² = 0.6441
+- MAE = 0.0249
 
 ## Data Source
 Nebraska Department of Education (NDE) — publicly available
+https://www.education.ne.gov/
